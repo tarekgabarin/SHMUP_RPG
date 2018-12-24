@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "ada9b869-4f33-48be-9371-b89098a7d707",
+            "Value": {
+                "id": "e8bd1003-da3d-41ba-9922-ec340c5292aa",
+                "resourcePath": "objects\\o_explosion_particle\\o_explosion_particle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b00c6b8a-4566-46e5-8ac8-eef4abf42824",
             "Value": {
                 "id": "6b9be3a7-b582-442d-99c5-31910c425e55",
