@@ -13,7 +13,7 @@ else
 var hlaxis = gamepad_axis_value(0, gp_axislh);
 var vlaxis = gamepad_axis_value(0, gp_axislv);
 direction = point_direction(0, 0, hlaxis, vlaxis);
-speed = point_distance(0 ,0, hlaxis, vlaxis) * 4;
+speed = point_distance(0 ,0, hlaxis, vlaxis) * global.player_ship_speed;
 }
 
 //GAMEPAD R-STICK TARGETING
