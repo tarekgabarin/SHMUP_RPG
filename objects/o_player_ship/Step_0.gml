@@ -1,6 +1,8 @@
 //SET DEADZONE LIMIT
 var deadzone_limit = 0.2;
 
+var _fire_laser = gamepad_button_check_pressed(0, gp_face3);
+
 //GAMEPAD L-STICK MOVEMENT
 if gamepad_axis_value(0,gp_axislv) >= -deadzone_limit && gamepad_axis_value(0,gp_axislv) <= deadzone_limit 
 && gamepad_axis_value(0,gp_axislh) >= -deadzone_limit && gamepad_axis_value(0,gp_axislh) <= deadzone_limit
@@ -32,4 +34,8 @@ else
 var hraxis = gamepad_axis_value(0, gp_axisrh);
 var vraxis = gamepad_axis_value(0, gp_axisrv);
 image_angle = point_direction(0, 0, hraxis, vraxis);
+}
+
+if (_fire_laser){
+	create_laser();	
 }

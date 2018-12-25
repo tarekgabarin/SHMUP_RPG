@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "5e8cb74f-d00a-4d1d-954c-c857b13d13be",
+            "Value": {
+                "id": "2211f8e2-808e-4e9b-aa3d-85ed7e6bda27",
+                "resourcePath": "sprites\\sprite13\\sprite13.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76e2b7ba-dcbd-487f-8896-17d731fb6721",
             "Value": {
                 "id": "c1298731-92f3-4c85-a17d-cb1ae2ddc39b",
@@ -303,6 +311,22 @@
             }
         },
         {
+            "Key": "d1cf9fa5-c0eb-4f7e-8b40-76fd8e5c29ed",
+            "Value": {
+                "id": "f49b0226-3d9b-4ab7-a6e7-7a3ffe384ef1",
+                "resourcePath": "sprites\\sprite14\\sprite14.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7581edc-c44d-4f53-b701-b12bc938ab85",
+            "Value": {
+                "id": "85e754bf-c538-4903-b8d7-d87e86f739d4",
+                "resourcePath": "objects\\o_laser\\o_laser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de37ba31-22fc-4285-8e5d-4c0eb46ed833",
             "Value": {
                 "id": "253ef4c5-b861-4cf5-a082-46d24c6ef2e7",
@@ -311,11 +335,27 @@
             }
         },
         {
+            "Key": "e2600a94-3682-4aa9-b921-4d4e0af1f714",
+            "Value": {
+                "id": "50609794-4097-4d61-b9df-0bf04d43a621",
+                "resourcePath": "scripts\\bounce_off_screen_edge\\bounce_off_screen_edge.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e3c7cbdc-1da5-4d9e-807b-bc6f2fd679c0",
             "Value": {
                 "id": "2078e999-d382-457c-88ce-f8e7579c3d39",
                 "resourcePath": "rooms\\r_space\\r_space.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e82ee374-1701-42f2-a766-bf63e3271869",
+            "Value": {
+                "id": "d07e1dab-21e1-45c2-83e1-54bb071595e7",
+                "resourcePath": "scripts\\create_laser\\create_laser.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -352,7 +392,8 @@
         }
     ],
     "script_order": [
-        
+        "e2600a94-3682-4aa9-b921-4d4e0af1f714",
+        "e82ee374-1701-42f2-a766-bf63e3271869"
     ],
     "tutorial": ""
 }
