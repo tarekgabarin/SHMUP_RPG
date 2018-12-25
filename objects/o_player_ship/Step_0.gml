@@ -34,6 +34,7 @@ else
 var hraxis = gamepad_axis_value(0, gp_axisrh);
 var vraxis = gamepad_axis_value(0, gp_axisrv);
 image_angle = point_direction(0, 0, hraxis, vraxis);
+create_laser();	
 }
 
 if (_fire_laser){
